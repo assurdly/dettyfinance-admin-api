@@ -1,0 +1,1 @@
+{"error":false,"message":"Fetched cycle settings successfully","data":[{"slot_swap":true,"slot_freeze":false,"slot_advance":false,"total_slots":10,"payment_info":{},"monthly_reminder":false,"payday":"","available_slot_positions":10}]}
