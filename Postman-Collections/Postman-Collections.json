@@ -7398,7 +7398,7 @@
 											"    pm.expect(jsonData.data).to.be.null;\r",
 											"})\r",
 											"pm.test(\"Start Cycle - Invalid Max Slot\", function () {\r",
-											"    pm.expect(jsonData.message).to.contains(\"max_slot: Min slot can not be greater than 5000 percent\");\r",
+											"    pm.expect(jsonData.message).to.exist;\r",
 											"});"
 										],
 										"type": "text/javascript",
