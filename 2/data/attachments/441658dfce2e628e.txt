@@ -1,0 +1,6 @@
+{
+    "name": "Assurdly Testers",
+    "description": "This is a group created by the super admin",
+    "friends": ["oluwatimileyin+1@assurdly.com","ayomide+1@assurdly.com","maimuna+3@assurdly.com","bisoye+5@assurdly.com","denilson+3@assurdly.com"],
+    "created_by": "9d1f90ae-0e2a-4d2d-8e83-3ef248364840"
+}
