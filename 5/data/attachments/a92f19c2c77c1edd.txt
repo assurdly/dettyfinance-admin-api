@@ -1,0 +1,1 @@
+{"error":true,"message":"frequency: invalid enum value. expected 'monthly' | 'weekly', received ''","data":null}
