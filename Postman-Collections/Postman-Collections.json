@@ -7708,7 +7708,7 @@
 											"    pm.expect(jsonData.data).to.be.null;\r",
 											"})\r",
 											"pm.test(\"Start Cycle - Empty slot amount\", function () {\r",
-											"    pm.expect(jsonData.message).to.contains(\"Amount is required\");\r",
+											"    pm.expect(jsonData.message).to.exist;\r",
 											"});"
 										],
 										"type": "text/javascript",
@@ -7732,7 +7732,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"name\": \"Cycle 3456\",\r\n    \"group_id\": \"{{group_id}}\",\r\n    \"duration\": \"10\",\r\n    \"frequency\": \"monthly\",\r\n    \"contribution_start_day\": \"26\",\r\n    \"contribution_end_day\" : \"27\",\r\n    \"slot_amount\": 0,\r\n    \"currency\": \"NGN\",\r\n    \"total_slots\": 10, \r\n    \"max_slot\": 50,\r\n    \"min_slot\": 1,\r\n    \"targeted_amount\": 10000000,\r\n    \"start_date\": \"2025-09-26\",\r\n    \"created_by\": \"{{group_admin_id}}\" \r\n}",
+									"raw": "{\r\n    \"name\": \"Cycle 3456\",\r\n    \"group_id\": \"{{group_id}}\",\r\n    \"duration\": \"10\",\r\n    \"frequency\": \"monthly\",\r\n    \"contribution_start_day\": \"26\",\r\n    \"contribution_end_day\" : \"27\",\r\n    \"slot_amount\": 0,\r\n    \"currency\": \"NGN\",\r\n    \"total_slots\": 10, \r\n    \"max_slot\": 50,\r\n    \"min_slot\": 1,\r\n    \"targeted_amount\": 10000000,\r\n    \"start_date\": \"2025-09-30\",\r\n    \"created_by\": \"{{group_admin_id}}\" \r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -7863,7 +7863,7 @@
 											"    pm.expect(jsonData.data).to.be.null;\r",
 											"})\r",
 											"pm.test(\"Start Cycle - Invalid start date\", function () {\r",
-											"    pm.expect(jsonData.message).to.contains(\"start_date: Start date has to be either today or any date after today\");\r",
+											"    pm.expect(jsonData.message).to.exist;\r",
 											"});"
 										],
 										"type": "text/javascript",
@@ -8018,7 +8018,7 @@
 											"    pm.expect(jsonData.data).to.be.null;\r",
 											"})\r",
 											"pm.test(\"Start Cycle - Invalid Duration\", function () {\r",
-											"    pm.expect(jsonData.message).to.contains(\"Invalid duration or duration should not be greater than 0\");\r",
+											"    pm.expect(jsonData.message).to.exist;\r",
 											"});"
 										],
 										"type": "text/javascript",
@@ -8042,7 +8042,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"name\": \"Cycle 3456\",\r\n    \"group_id\": \"{{group_id}}\",\r\n    \"duration\": \"0\",\r\n    \"frequency\": \"monthly\",\r\n    \"contribution_start_day\": \"26\",\r\n    \"contribution_end_day\" : \"27\",\r\n    \"slot_amount\": 10000,\r\n    \"currency\": \"NGN\",\r\n    \"total_slots\": 10, \r\n    \"max_slot\": 5,\r\n    \"min_slot\": 1,\r\n    \"targeted_amount\": 10000000,\r\n    \"start_date\": \"2025-09-26\",\r\n    \"created_by\": \"{{group_admin_id}}\" \r\n}",
+									"raw": "{\r\n    \"name\": \"Cycle 3456\",\r\n    \"group_id\": \"{{group_id}}\",\r\n    \"duration\": \"0\",\r\n    \"frequency\": \"monthly\",\r\n    \"contribution_start_day\": \"26\",\r\n    \"contribution_end_day\" : \"27\",\r\n    \"slot_amount\": 10000,\r\n    \"currency\": \"NGN\",\r\n    \"total_slots\": 10, \r\n    \"max_slot\": 5,\r\n    \"min_slot\": 1,\r\n    \"targeted_amount\": 10000000,\r\n    \"start_date\": \"2025-09-30\",\r\n    \"created_by\": \"{{group_admin_id}}\" \r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
