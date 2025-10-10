@@ -1,0 +1,4 @@
+{
+     "email": "admin@slotfinance.co",
+    "password": "Pa$$w0r"
+}
