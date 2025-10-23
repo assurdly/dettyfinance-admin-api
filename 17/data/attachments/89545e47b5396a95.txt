@@ -1,0 +1,16 @@
+{
+    "name": "",
+    "group_id": "fc752164-4105-4a76-9ffc-461f9c5f03f9",
+    "duration": "10",
+    "frequency": "monthly",
+    "contribution_start_day": "26",
+    "contribution_end_day" : "27",
+    "slot_amount": 10000,
+    "currency": "NGN",
+    "total_slots": 10, 
+    "max_slot": 5,
+    "min_slot": 1,
+    "targeted_amount": 10000000,
+    "start_date": "2025-10-01",
+    "created_by": "" 
+}
