@@ -1,0 +1,15 @@
+{
+    "name": "Cycle 3456",
+    "group_id": "b5bd5d88-1e91-4807-a6de-1df2bae4dedf",
+    "duration": "10",
+    "frequency": "monthly",
+    "contribution_day": "last_day_of_the_month",
+    "slot_amount": 10000,
+    "currency": "NGN",
+    "total_slots": 10,
+    "max_slot": "2",
+    "min_slot": "0.5",
+    "targeted_amount": 10000000,
+    "start_date": "2024-11-14",
+    "created_by": "8bab994e-b091-4fc4-becc-61ad52fd2244" 
+}
