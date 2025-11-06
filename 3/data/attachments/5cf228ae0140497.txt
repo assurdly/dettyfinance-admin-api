@@ -1,4 +1,0 @@
-{
-    "old_password": "8bfd8d1dc4ea77ad",
-    "new_password": "Pa$$w0rd"
-}

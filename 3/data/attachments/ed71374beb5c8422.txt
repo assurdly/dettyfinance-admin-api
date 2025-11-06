@@ -1,1 +1,0 @@
-{"error":false,"message":"Invited user to group successfully"}
