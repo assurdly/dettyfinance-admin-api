@@ -1,0 +1,1 @@
+{"error":false,"message":"Fetched cycle settings successfully","data":[{"slot_swap":true,"slot_freeze":false,"slot_advance":false,"total_slots":20,"payment_info":{"bank_name":"Opay","account_name":"Adebayo Peter","account_number":"008446845569"},"monthly_reminder":true,"payday":"2026-01-23","available_slot_positions":12}]}
