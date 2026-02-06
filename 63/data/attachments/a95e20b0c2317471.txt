@@ -1,0 +1,1 @@
+{"error":false,"message":"Fetched cycle settings successfully","data":[{"slot_swap":true,"slot_freeze":false,"slot_advance":false,"total_slots":40,"payment_info":{"bank_name":"Zenith","account_name":"Jesu Talonimi","account_number":"0258201156"},"monthly_reminder":false,"payday":"2026-01-24","available_slot_positions":40}]}
