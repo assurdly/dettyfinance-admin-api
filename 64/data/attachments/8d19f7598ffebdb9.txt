@@ -1,0 +1,1 @@
+{"error":true,"message":"slot_amount: number must be greater than 0","data":null}
