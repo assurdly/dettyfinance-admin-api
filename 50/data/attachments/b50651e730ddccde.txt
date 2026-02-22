@@ -1,1 +1,0 @@
-{"error":false,"message":"Fetched cycle settings successfully","data":[{"slot_swap":true,"slot_freeze":false,"slot_advance":false,"total_slots":10,"payment_info":{"bank_name":"FCM","account_name":"Oluwa Peter","account_number":"0259201155"},"monthly_reminder":true,"payday":"2026-01-31","available_slot_positions":8}]}
